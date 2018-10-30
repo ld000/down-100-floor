@@ -1,3 +1,3 @@
-# down-100-stairs
+# down-100-floor
 
 npm run build
