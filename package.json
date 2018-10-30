@@ -1,0 +1,39 @@
+{
+  "name": "down-100-stairs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "nodemon --exec babel-node bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ld000/down-100-stairs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ld000/down-100-stairs/issues"
+  },
+  "homepage": "https://github.com/ld000/down-100-stairs#readme",
+  "dependencies": {
+    "phaser": "^3.15.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.25.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.4",
+    "express": "^4.15.3",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.29.0",
+    "nodemon": "^1.18.5",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-hot-middleware": "^2.18.2"
+  }
+}
